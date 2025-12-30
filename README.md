@@ -19,17 +19,11 @@ For each time step `t`, the optimization decides:
 State of charge dynamics:
 
 $$
-\text{soc}_{t+1}
-=
-\text{soc}_{t}
-+
-\left(
-\eta_{ch}\, Pch_{t}
--
-\frac{1}{\eta_{dis}}\, Pdis_{t}
-\right)
-\, dt
+\begin{aligned}
+\text{soc}_{t+1} &= \text{soc}_{t} + \left(\eta_{ch}\,Pch_{t} - \frac{1}{\eta_{dis}}\,Pdis_{t}\right)\,dt
+\end{aligned}
 $$
+
 
 ## Input Data Format
 The input is a CSV file with the following required columns:
