@@ -20,7 +20,7 @@ State of charge dynamics:
 
 $$
 \begin{aligned}
-\text{soc}_{t+1} &= \text{soc}_{t} + \left(\eta_{ch}*P_{ch, t} - \frac{1}{\eta_{dis}}*P_{dis, t}\right)*dt
+\text{soc}_{t+1} &= \text{soc}_{t} + \left(\eta_{ch}\*P_{ch, t} - \frac{1}{\eta_{dis}}\*P_{dis, t}\right)\*dt
 \end{aligned}
 $$
 
