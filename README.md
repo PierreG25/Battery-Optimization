@@ -24,6 +24,13 @@ $$
 \end{aligned}
 $$
 
+Objective function (maximize arbitrage profit):
+
+$$
+\begin{aligned}
+\text{max} \sum{price_{t}\*\left(P_{ch, t} - P_{dis, t}\right)\*dt}
+\end{aligned}
+$$
 
 ## Input Data Format
 The input is a CSV file with the following required columns:
