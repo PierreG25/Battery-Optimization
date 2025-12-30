@@ -45,4 +45,4 @@ The model is designed to assess how shorter bidding intervals and increased pric
 - Arbitrage profitability
 - Battery cycling intensity
 
-## Part 2 Optimization o
+## Part 2 Multi-Market Battery Dispatch Optimization - Day-Ahead & Intraday Markets
