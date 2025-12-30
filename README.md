@@ -19,9 +19,16 @@ For each time step `t`, the optimization decides:
 State of charge dynamics:
 
 $$
-\begin{align}
-  \text{soc}_{t+1} = \text{soc}_{t} + (\eta_{ch}*Pch_{t} - \frac{1}{\eta_{dis}}*Pdis_{t})*dt
-\end{align}
+\text{soc}_{t+1}
+=
+\text{soc}_{t}
++
+\left(
+\eta_{ch}\, Pch_{t}
+-
+\frac{1}{\eta_{dis}}\, Pdis_{t}
+\right)
+\, dt
 $$
 
 ## Input Data Format
