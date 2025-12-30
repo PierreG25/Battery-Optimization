@@ -28,7 +28,7 @@ Objective function (maximize arbitrage profit):
 
 $$
 \begin{aligned}
-\max \quad & \sum_{t} \text{price}_{t}
+\max \quad & \sum_{t} \text{price}_{t}\*
 \left( P_{dis,t} - P_{ch,t} \right)\* dt
 \end{aligned}
 $$
