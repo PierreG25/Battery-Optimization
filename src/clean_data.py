@@ -15,7 +15,7 @@ def clean(df, datetime_col='MTU (CET/CEST)'):
     print(df)
     df[datetime_col] = pd.to_datetime(df[datetime_col], dayfirst=True, format='mixed')
     if year:
-        df = df[df[datetime_col] >= '12/12/2025']
+        df = df[df[datetime_col] >= '01/12/2025']
     print('ok')
 
     df.rename(columns={'Day-ahead Price (EUR/MWh)' : 'price',

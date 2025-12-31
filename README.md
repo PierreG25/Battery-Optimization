@@ -33,11 +33,6 @@ $$
 \end{aligned}
 $$
 
-## Input Data Format
-The input is a CSV file with the following required columns:
-- `time`: datetime
-- `price`: electricity price (e.g. EUR/MWh)
-
 ## Part 1 Impact of the change in timestep (15min vs 1h) - Day-Ahead Market
 
 The model is designed to assess how shorter bidding intervals and increased price volatility impact:
@@ -45,4 +40,15 @@ The model is designed to assess how shorter bidding intervals and increased pric
 - Arbitrage profitability
 - Battery cycling intensity
 
+<p align="center">
+  <img src="figures/battery_optimization_plot.png" alt="Plot 1" height="270"/>
+  <img src="figures/battery_optimization_plot_15.png" alt="Plot 2" height="270"/>
+</p>
+
+<p align="center">
+  <img src="figures/daily_profit_comparison.png" alt="Plot 1" width=100%/>
+</p>
+
 ## Part 2 Multi-Market Battery Dispatch Optimization - Day-Ahead & Intraday Markets
+
+Work in progress

@@ -218,8 +218,8 @@ def run_independent_daily_optimizations(
     dispatch_all = pd.concat(all_days_dispatch, ignore_index=True)
     daily_summary = pd.DataFrame(daily_summary_rows).sort_values("date").reset_index(drop=True)
 
-    dispatch_all.to_csv("data/dispatch_results_all_days.csv", index=False)
-    daily_summary.to_csv("data/daily_summary.csv", index=False)
+    dispatch_all.to_csv("data/dispatch_results_all_days_15.csv", index=False)
+    daily_summary.to_csv("data/daily_summary_15.csv", index=False)
 
     print("Wrote data/dispatch_results_all_days.csv")
     print("Wrote data/daily_summary.csv")
