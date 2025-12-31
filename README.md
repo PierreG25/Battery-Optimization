@@ -33,7 +33,7 @@ $$
 \end{aligned}
 $$
 
-## Part 1 Impact of the change in timestep (15min vs 1h) - Day-Ahead Market
+## Part 1 Impact of the change in resolution (15min vs 1h) - Day-Ahead Market
 
 The model is designed to assess how shorter bidding intervals and increased price volatility impact:
 - Optimal dispatch strategies
