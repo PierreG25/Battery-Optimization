@@ -41,8 +41,8 @@ The model is designed to assess how shorter bidding intervals and increased pric
 - Battery cycling intensity
 
 <p align="center">
-  <img src="figures/battery_optimization_plot.png" alt="Plot 1" height="310"/>
-  <img src="figures/battery_optimization_plot_15.png" alt="Plot 2" height="310"/>
+  <img src="figures/battery_optimization_plot.png" alt="Plot 1" height="305"/>
+  <img src="figures/battery_optimization_plot_15.png" alt="Plot 2" height="305"/>
 </p>
 
 <p align="center">
