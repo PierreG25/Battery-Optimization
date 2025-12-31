@@ -40,13 +40,15 @@ The model is designed to assess how shorter bidding intervals and increased pric
 - Arbitrage profitability
 - Battery cycling intensity
 
+*All results are based on market data from November and December 2025* 
+
 <p align="center">
   <img src="figures/battery_optimization_plot.png" alt="Plot 1" height="305"/>
   <img src="figures/battery_optimization_plot_15.png" alt="Plot 2" height="305"/>
 </p>
 
 The two plots compare battery operation under 1-hour and 15-minute market resolutions by showing electricity price and state of charge (SOC) over time. With hourly prices, the smoother signal leads to fewer and more aggregated charge and discharge actions, resulting in larger, step-like SOC changes. In contrast, the 15-minute resolution captures short-term price variations, allowing more frequent and better-timed SOC adjustments around local price minima and maxima.
-This higher resolution increases battery usage: the mean daily equivalent full cycles are higher in the 15-minute case than in the hourly case. While this enables additional arbitrage opportunities and higher profits, it also implies more intensive cycling of the battery.
+This higher resolution increases battery usage: the mean daily equivalent full cycles are 25% higher in the 15-minute case (3.4 in average) than in the hourly case (2.7 in average). While this enables additional arbitrage opportunities and higher profits, it also implies more intensive cycling of the battery.
 
 <p align="center">
   <img src="figures/daily_profit_comparison.png" alt="Plot 1" width=100%/>
