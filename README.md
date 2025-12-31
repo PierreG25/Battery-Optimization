@@ -40,7 +40,7 @@ The model is designed to assess how shorter bidding intervals and increased pric
 - Arbitrage profitability
 - Battery cycling intensity
 
-*All results are based on market data from November and December 2025* 
+**All results are based on market data from November and December 2025**
 
 <p align="center">
   <img src="figures/battery_optimization_plot.png" alt="Plot 1" height="305"/>
